@@ -1,0 +1,8 @@
+version: '2.4'
+services:
+  catboost-memory-leak:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: catboost-memory-leak
+    image: catboost-memory-leak
